@@ -7,8 +7,8 @@ const app = express()
 
 
 const config = {
-    channelAccessToken: xxxx,
-    channelSecret: xxxx
+    channelAccessToken: 'QwRycwbCq2zgq+bBiVtkuCXbMfQDtHW8k47qh6SdykrkckfGZ8RUNbI50kpblWzlX/IxTPWxdilI4J6nGWk1xHTgUVfcRVSZPQjAqF5UCBhrgPMjP3j7XI6aopvoDwcclAk3LPkhKSfHOSeCRgdvLAdB04t89/1O/w1cDnyilFU=',
+    channelSecret: 'b49301e7aef770299cfc95659f933c5c'
 }
 
 const client = new line.Client(config)
